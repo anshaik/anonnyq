@@ -1,0 +1,99 @@
+<%= render partial: 'layouts/sidebar' %>
+<section id="main_content" >
+<div class="container">
+<div class="row">
+    
+	<div class="col-md-9" style="padding-left:30px;padding-top:10px;padding-bottom:20px;">
+		<div class=" box_style_2">
+			<span class="tape"></span>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Your personal info</h3>
+				</div>
+			</div>
+			<div id="message-apply"></div>
+			<%= form_for @profile, id:"contactform_apply" do |f| %>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<%= f.text_field :first_name, class:"form-control style_2", id:"name_apply", placeholder:"First Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<%= f.text_field :last_name, class:"form-control style_2", id:"lastname_apply", placeholder:"Last Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<%= f.text_field :username, class:"form-control style_2", id:"username_apply", placeholder:"Username" %>
+                            <span class="input-icon"><i class="icon-graduation-cap"></i></span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<%= f.text_field :phone, class:"form-control style_2", id:"phone_apply", placeholder:"Enter Phone Number" %>
+                            <span class="input-icon"><i class="icon-phone"></i></span>
+						</div>
+					</div>
+				</div>
+                
+                <div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+							<%= f.text_field :age, class:"form-control style_2", id:"age_apply", placeholder:"Age" %>
+	                        <span class="input-icon"><i class="icon-at-1"></i></span>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+						<div class="form-group">
+                        <div class="styled-select">
+                        		<%= f.select :gender, options_for_select(["Male", "Female"], current_user.profile.gender),  class:"form-control", id:"gender_apply" %>
+								<select class="form-control" name="gender_apply" id="gender_apply">
+									<option value="" selected>Select your gender</option>
+									<option value="Male">Male</option>
+									<option value="Female">Female</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+                
+                <div class="row">
+
+				</div>
+                
+                <hr>
+                <h3>Your preferences</h3>
+                
+              <div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<%= f.text_area :bio, class:"form-control", id:"message_apply_2", placeholder:"Bio", style:"height:150px;" %>
+						</div>
+					</div>
+				</div>
+                
+                <div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<!-- <input type="text" id="verify_apply" class=" form-control" placeholder="Are you human? 3 + 1 ="> -->
+					</div>
+				</div>
+                <div class="col-md-6">
+						<div class="form-group pull-right">
+							<input type="submit" value="Submit" class=" button_subscribe_green" id="submit-apply"/>
+					</div>
+				</div>
+                </div>
+			<% end %>
+		</div>
+	</div>
+</div>
+</div>
+</section>

@@ -1,0 +1,178 @@
+<section id="wizard_bg">
+<div class="container">
+<!-- Start Survey container -->
+<div id="survey_container">
+
+
+	<div id="top-wizard">
+		<strong>Profile Progress </strong>
+		<div id="progressbar"></div>
+		<div class="shadow"></div>
+	</div><!-- end top-wizard -->
+    
+	<%= form_for @profile, id:"wrapped" do |f| %>
+		<div id="middle-wizard">
+
+			<div class="step">
+				<div class="row">
+					<h3 class="col-md-10">Let's Setup Your New Big D Code Profile</h3>
+                    <p class="col-md-12">
+	                    Thank you for your interest in Big D Code - We'd like to get to know you a little better.
+	                    <br> Need help? Call the admissions departement for support <strong>214.497.7771</strong>
+                    </p>
+					<div class="col-md-6">
+						<ul class="data-list">
+							<li><div class="form-group">
+								<%= f.text_field :first_name, class:"required form-control", placeholder:"First Name" %>
+								<span class="input-icon"><i class="icon-user"></i></span>
+							</div></li>
+							<li><div class="form-group">
+								<%= f.text_field :last_name, class:"required form-control", placeholder:"Last Name" %>
+								<span class="input-icon"><i class="icon-user"></i></span></div></li>
+							<li><div class="form-group">
+								<%= f.text_field :username, class:"required form-control", placeholder:"Username" %>
+								<span class="input-icon"><i class="icon-user"></i></span></div></li>
+						</ul>
+					</div><!-- end col-md-6 -->
+                    
+					<div class="col-md-6">
+                   
+                        
+						<ul class="data-list" style="margin:0; padding:0;">
+                            <li><div class="form-group">
+                            	<%= f.text_field :phone, class:"required form-control", placeholder:"Phone Number" %>
+                            	<span class="input-icon"><i class="icon-phone"></i></span></div></li>
+							<li><div class="form-group">
+									<%= f.text_field :referral, class:"form-control", placeholder:"How Did You Hear About Big D Code School?" %>
+									<span class="input-icon"><i class="icon-user"></i></span>
+
+							</div>
+							</li>
+                        </ul>
+						<ul class="data-list floated clearfix">
+							<li id="age">
+								<%= f.text_field :age, class:"required form-control", placeholder:"Age" %>
+							</li>
+							<li>
+								<%= f.radio_button :gender, "male", class:"required check_radio" %>
+							<label class="label_gender"> Male</label></li>
+							<li>
+								<%= f.radio_button :gender, "female", class:"required check_radio" %>
+							<label class="label_gender"> Female</label></li>
+						</ul>
+                        
+					</div><!-- end col-md-6 -->
+				</div><!-- end row -->
+                
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<ul class="data-list" id="terms">
+							<li>
+                            <strong>Do you accept <a href="#" data-toggle="modal" data-target="#terms-txt">terms and conditions</a> ?</strong>
+                           <label class="switch-light switch-ios ">
+                                    <input type="checkbox" name="terms" class="required fix_ie8" value="yes">
+                                    <span>
+                                        <span class="ie8_hide">No</span>
+                                        <span>Yes</span>
+                                    </span>
+                                    <a></a>
+                                </label>
+							</li>
+						</ul>
+					</div>
+				</div>
+                
+			</div><!-- end step-->
+
+			<div class="step">
+				<div class="row">
+					<h3 class="col-md-10">Let's Setup Your New Big D Code Profile</h3>
+                    <p class="col-md-12">
+	                    Thank you for your interest in Big D Code - We'd like to get to know you a little better.
+	                    <br> Need help? Call the admissions department for support <strong>214.497.7771</strong>
+                    </p>
+					<div class="col-md-12">
+						<ul class="data-list">
+							<li><div class="form-group">
+								<%= f.text_field :address1, class:"required form-control", placeholder:"Address Line 1" %>
+								<span class="input-icon"><i class="icon-user"></i></span></div></li>
+							<li><div class="form-group">
+								<%= f.text_field :address2, class:"form-control", placeholder:"Address Line 2" %>
+								<span class="input-icon"><i class="icon-user"></i></span></div></li>
+						</ul>
+					</div><!-- end col-md-6 -->
+				</div><!-- end row -->
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="data-list">
+							<li>
+								<div class="form-group">
+									<%= f.text_field :city, class:"required form-control", placeholder:"City" %>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul class="data-list">
+							<li>
+								<div class="form-group">
+									<%= f.text_field :state, class:"required form-control", placeholder:"State" %>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="data-list">
+							<li>
+								<div class="form-group">
+									<%= f.text_field :zip, class:"required form-control", placeholder:"Zip" %>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+                
+			</div><!-- end step-->
+            
+			<div class="step row">
+				<div class="col-md-12">
+					<h3>Your Interests</h3>
+                     <p>What other areas/courses are you interested in learning more about?</p>
+					
+                    <ul class="data-list-2 clearfix">
+						<li><input name="course_1[]" type="checkbox" class="required check_radio" value="Management: Build a Business Plan"><label>UX / Design</label></li>
+						<li><input name="course_1[]" type="checkbox" class="required check_radio" value="Art: Impressionist "><label>C++</label></li>
+						<li><input name="course_1[]" type="checkbox" class="required check_radio" value="Litteratture: Poetry"><label>iOS / Swift</label></li>
+						<li><input name="course_1[]" type="checkbox" class="required check_radio" value="Math: 12 Principles"><label>Android</label></li>
+					</ul>
+				</div>
+			</div><!-- end step -->
+            
+			<div class="step row">
+				<div class="col-md-12">
+					<h3>Short Bio</h3>
+                   <p>Tell us a little about yourself - why are you interested in this course, your experience level and what you hope to gain from Big D Code.</p>
+					<div class="form-group">
+							<%= f.text_area :bio, class:"required form-control", placeholder:"Bio", style:"height:150px;" %>
+						</div>
+				</div>
+			</div><!-- end step -->
+                        
+			<div class="submit step" id="complete">
+                    	<i class="icon-check"></i>
+						<h3>Thanks! Click this button to finalize your application - Hope to see you in class!</h3>
+						<%= f.button "Submit your application", class:"submit" %>
+			</div><!-- end submit step -->
+            
+		</div><!-- end middle-wizard -->
+        
+		<div id="bottom-wizard">
+			<button type="button" name="backward" class="backward">Backward</button>
+			<button type="button" name="forward" class="forward">Forward </button>
+		</div><!-- end bottom-wizard -->
+		<% end %>
+    
+</div><!-- end Survey container -->
+
+</div>
+</section><!-- end section main container -->

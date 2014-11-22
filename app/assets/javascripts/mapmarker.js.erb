@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	//set up markers 
+	var myMarkers = {"markers": [
+			{"latitude": "32.986406", "longitude":"-96.80313", "icon": "<%= image_path('theme/map-marker2.png') %>"}
+		]
+	};
+	
+	//set up map options
+	$("#map").mapmarker({
+		zoom	: 14,
+		center	: '17290 Preston Rd Dallas, TX 75252',
+		markers	: myMarkers
+	});
+});
+
+	

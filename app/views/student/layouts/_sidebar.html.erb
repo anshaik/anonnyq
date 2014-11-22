@@ -1,0 +1,60 @@
+<div class="col-md-2 sbc hidden-xs" style="height:100%;background-color:#1B1E24;">
+<!-- BEGIN SIDEBAR -->
+    <div class="left side-menu">
+      
+      
+            <div class="body rows scroll-y">
+        
+        <!-- Scrolling sidebar -->
+                <div class="sidebar-inner slimscroller">
+        
+          <!-- User Session -->
+          <div class="media">
+            <a class="pull-left" href="#fakelink">
+            <%= image_tag "theme/avatar2.png", class:"media-object img-circle", alt: "Avatar" %>
+            </a>
+            <div class="media-body">
+              Welcome back,
+              <h4 class="media-heading"><strong><%= current_user.profile ? current_user.profile.first_name : "User" %></strong></h4>
+              <a href="user-profile.html">Edit</a>
+              <a class="md-trigger" data-modal="logout-modal-alt">Logout</a>
+            </div><!-- End div .media-body -->
+          </div><!-- End div .media -->
+        
+          <!-- Sidebar menu -->       
+          <div id="sidebar-menu">
+            <ul>
+              <li class="active">
+                <%= link_to student_dashboard_path do %>
+                  <i class="fa icon-home"></i> Dashboard
+                <% end %>
+              </li>
+              <li>
+                <%= link_to schedule_path do %>
+                  <i class="fa icon-calendar"></i> Schedule
+                <% end %>
+              </li>
+              <li>
+                <%= link_to lessons_path do %>
+                  <i class="fa icon-terminal"></i> Lessons
+                <% end %>
+              </li>
+              <li>
+                <%= link_to timeline_path do %>
+                  <i class="fa icon-quote-left"></i> Timeline
+                <% end %>
+              </li>
+              <li>
+                <%= link_to contact_us_path do %>
+                  <i class="fa icon-lifebuoy"></i> Contact Instructor
+                <% end %>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </div><!-- End div #sidebar-menu -->
+        </div><!-- End div .sidebar-inner .slimscroller -->
+            </div><!-- End div .body .rows .scroll-y -->
+        </div>
+    <!-- END SIDEBAR -->
+
+</div>

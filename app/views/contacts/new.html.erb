@@ -1,0 +1,103 @@
+ <section id="map"></section><!-- end map-->
+  <section id="directions">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+       <form action="http://maps.google.com/maps" method="get" target="_blank">
+                <div class="input-group">
+                    <input type="text" name="saddr" placeholder="Enter your starting point" class="form-control style-2" />
+                    <input type="hidden" name="daddr" value="17290 Preston Rd Dallas, TX 75252"/>
+                    <span class="input-group-btn">
+                    <button class="btn" type="submit" value="Get directions" style="margin-left:0;">GET DIRECTIONS</button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
+          </div>
+        </div>
+    </div>
+  </section>
+  
+<section id="main_content" >
+<div class="container">
+<div class="row">
+    <div class="col-md-4">
+        <h3>Address</h3>
+        <ul id="contact-info">
+            <li><i class="icon-home"></i> 17290 Preston Rd - Dallas, TX 75252</li>
+            <li><i class="icon-phone"></i> 214.497.7771</li>
+            <li><i class=" icon-email"></i> <a href="#">bigdcode@gmail.com</a></li>
+        </ul>
+        <hr>
+        <h3>Follow us</h3>
+        <p>
+            Connect with our community and stay up to date on developer news! We share awesome tools, tips, and tricks daily!
+        </p>
+        <ul id="follow_us_contacts">
+            <li><a href="http://facebook.com/bigdcode"><i class="icon-facebook"></i>facebook.com/bigdcode</a></li>
+            <li><a href="https://twitter.com/bigdcode"><i class="icon-twitter"></i>twitter.com/@bigdcode</a></li>
+            <li><a href="https://twitter.com/noddfw"><i class=" icon-twitter"></i>twitter.com/noddfw</a></li>
+        </ul>
+        <hr>
+        <h3>Apply for a course</h3>
+        <p>
+            Get started today! The application process is quick and easy!
+        </p>
+        <a href="#" class="button_medium_outline">Apply</a>
+    </div>
+    <div class="col-md-8">
+        <div class=" box_style_2">
+            <span class="tape"></span>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>E-mail us!</h3>
+                </div>
+            </div>
+            <div id="message-contact"></div>
+            <%= form_for @contact, id:'contactform' do |f| %>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :first_name, class:"form-control style_2", id:"name_contact", placeholder:"First Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :last_name, class:"form-control style_2", id:"lastname_contact", placeholder:"Last Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :email, type:"email", id:"email_contact", class:"form-control style_2", placeholder:"Email" %>
+                            <span class="input-icon"><i class="icon-email"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.phone_field :phone, type:"text", id:"phone_contact", class:"form-control style_2", placeholder:"Phone number" %>
+                            <span class="input-icon"><i class="icon-phone"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <%= f.text_area :message, rows:"5", id:"message_contact", class:"form-control", placeholder:"Write your message", style: "height:200px" %>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <%= f.submit value:"Send", class:"button_medium", id:"submit-contact" %>
+                    </div>
+                </div>
+            <% end %>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>

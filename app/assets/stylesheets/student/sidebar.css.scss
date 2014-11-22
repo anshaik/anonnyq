@@ -1,0 +1,192 @@
+// Place all the styles related to the Dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* === LEFT COLUMN (SIDEBAR USER PROFILE) === */
+body {
+  background: #0cbdaa image-url('theme/bg_sub-header.png') repeat 0 0;
+}
+.sbc{
+  padding-left: 0;
+}
+.sidebar-inner{}
+.sidebar-inner .media{
+  padding: 0px 28px 15px;
+  margin: 20px -15px 0 -15px;
+  border-bottom: 1px solid #1F2429;
+  color: #fff;
+}
+.sidebar-inner .media a{
+  cursor: pointer;
+  font-size: 11px;
+  margin: 0 5px 0 0;
+  color: #8B91A0;
+}
+.sidebar-inner .media a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-inner .media .pull-left{margin: 3px 10px 0 3px;}
+.sidebar-inner .media .media-object{width: 57px;}
+
+/* === LEFT COLUMN (SEARCH FORM) === */
+.sidebar-inner #search{padding: 15px;}
+.sidebar-inner #search form{position: relative;}
+.sidebar-inner #search form i{
+  color: #909090;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.sidebar-inner #search .search{
+  border-radius: 0;
+  border-color: #121515;
+  background: #313940;
+  padding-right: 25px;
+  font-size: 12px;
+  color: #909090;
+  -webkit-transition:All 0.25s ease;
+  -moz-transition:All 0.25s ease;
+  -o-transition:All 0.25s ease;
+}
+.sidebar-inner #search .search:focus{
+  border-color: #121515;
+  background: #fdfdfd;
+  -webkit-box-shadow: inset 0 1px 1px rgba(2, 0, 0, 0.075), 0 0 8px rgba(1, 1, 1, 0.3);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 1, 1, 0.3);
+}
+
+/* === LEFT COLUMN (SIDEBAR VERTICAL MENU) === */
+#sidebar-menu,
+#sidebar-menu ul,
+#sidebar-menu li,
+#sidebar-menu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+}
+#sidebar-menu a {line-height: 1.3;}
+#sidebar-menu {
+  width: 100%;
+  border-top: 1px solid #1F2429;
+}
+#sidebar-menu > ul > li > a {
+  font-size: 14px;
+  display: block;
+  color: #8B91A0;
+  border-left: 4px solid transparent;
+  padding: 10px 15px;
+  -webkit-transition:All 0.25s ease;
+  -moz-transition:All 0.25s ease;
+  -o-transition:All 0.25s ease;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #fff;
+  background: #121515;
+  padding-left: 20px;
+  border-left-color: #3B9BED;
+}
+#sidebar-menu > ul > li > a > i {
+  margin-right: 5px;
+  color: #D3D6DB;
+}
+#sidebar-menu > ul > li > a > i.fa.fa-angle-double-down.i-right {opacity: 0.45}
+#sidebar-menu > ul > li > a > i.i-right {
+  margin: 3px 0 0 0;
+  float: right;
+}
+#sidebar-menu > ul > li > a > i.yellow.i-right {color: #EBC85E;}
+#sidebar-menu > ul > li > a:hover {text-decoration: none;}
+#sidebar-menu > ul > li.active > a {
+  color: #fff;
+  background: #121515;
+}
+#sidebar-menu > ul > li.active > a:hover {
+  color: #fff;
+  background: #121515;
+  padding: 10px 15px;
+}
+#sidebar-menu > ul > li.selected > a {
+  color: #fff;
+  background: #121515;
+  padding-left: 20px;
+}
+#sidebar-menu > ul > li  > a span.label{float: right;}
+#sidebar-menu > ul > li  > a span.label.span-left{
+  float: none;
+  margin-left: 5px;
+}
+#sidebar-menu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+/* === LEFT COLUMN (SIDEBAR VERTICAL SUBMENU) === */
+#sidebar-menu ul ul {
+  display: none;
+  border-bottom: 1px solid #121515;
+  background: #22262E;
+}
+#sidebar-menu ul ul.visible {display: block;}
+#sidebar-menu ul ul li {border-top: 0;}
+#sidebar-menu ul ul a {
+  padding: 10px 25px;
+  display: block;
+  color: #D3D6DB;
+  font-size: 13px;
+  -webkit-transition:All 0.4s ease;
+  -moz-transition:All 0.4s ease;
+  -o-transition:All 0.4s ease;
+}
+#sidebar-menu ul ul a:hover {
+  color: #fff;
+  background: #121515;
+}
+#sidebar-menu ul ul li.active a {
+  color: #fff;
+  background: #121515;
+}
+#sidebar-menu ul ul a i {margin-right: 5px;}
+
+/* === LEFT COLUMN (SIDEBAR FOOTER) === */
+.footer.rows {
+  height: 50px;
+  bottom: 0;
+  background: #0F1215;
+  color: #E8EAED;
+  padding: 15px;
+}
+.footer.rows .progress.progress-xs{
+  margin: 9px 70px 9px 0;
+  overflow: visible;
+  position: relative;
+}
+.footer.rows .progress.progress-xs .progress-precentage{
+  display: block;
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  padding: 7px 5px;
+  border-radius: 50%;
+  background: #212121;
+  color: #8B91A0;
+}
+.footer.rows .progress.progress-xs .btn{
+  display: block;
+  position: absolute;
+  right: -70px;
+  top: -14px;
+  background: #212121;
+  color: #8B91A0;
+  border: none;
+}

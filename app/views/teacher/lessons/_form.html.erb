@@ -1,0 +1,41 @@
+<%= form_for [:teacher, @course, @section, @lesson], id:"contactform_apply" do |f| %>
+      <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <%= f.text_field :title, class:"form-control style_2", id:"name_apply", placeholder:"Title" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <%= f.text_field :duration, class:"form-control style_2", id:"name_apply", placeholder:"Duration" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+            </div>
+          </div>
+        </div>
+
+                
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <!-- <input type="text" id="verify_apply" class=" form-control" placeholder="Are you human? 3 + 1 ="> -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <%= f.text_area :body, class:"form-control", id:"message_apply_2", placeholder:"Lesson Text", style:"height:150px;" %>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group" style="text-align: center;">
+            <input type="submit" value="Submit" class=" button_subscribe_green" id="submit-apply"/>
+          </div>
+        </div>
+      </div>
+<% end %>

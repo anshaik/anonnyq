@@ -1,0 +1,39 @@
+<section id="main_content" >
+  <div class="container">
+    <div class="row">
+        
+      <div class="col-md-9 col-md-offset-1" style="padding-left:30px;padding-top:10px;padding-bottom:20px;">
+        <div class=" box_style_2">
+          <span class="tape"></span>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h3>Sections for <%= @course.name %></h3>
+            </div>
+          </div>
+          <div id="message-apply"></div>
+          <table class="table table-hover">
+            <tr>
+              <th>Name</th>
+              <th>Reason</th>
+              <th>Actions</th>
+            </tr>
+
+            <% @sections.each do |section| %>
+              <tr>
+                <td><%= link_to section.title, teacher_course_section_path(@course, section) %></td>
+                <td><%= truncate strip_tags(section.description), length: 50 %></td>
+                <td>
+                  <%= link_to " Destroy",  teacher_course_section_path(@course, section), method: "delete", confirm: "Are you sure you want to delete this section? This cannot be undone.", class:"btn btn-sm btn-danger fa fa-trash" %>
+                  <%= link_to " Edit", edit_teacher_course_section_path(@course, section), class:"btn btn-sm btn-primary fa fa-edit" %>
+                  <%= link_to " View", course_section_path(@course, section), class:"btn btn-sm btn-success fa fa-edit" %>
+                </td>
+              </tr>
+            <% end %>
+          </table>
+          <%= link_to "New Section", new_teacher_course_section_path(@course), class: "btn btn-sm btn-primary" %>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
