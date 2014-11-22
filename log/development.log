@@ -41507,3 +41507,5541 @@ Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 12:57:5
 
 
 Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 12:57:52 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-22 13:49:52 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (67.5ms)
+  [1m[35mCourse Load (0.5ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered layouts/_navbar.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 1453ms (Views: 1421.7ms | ActiveRecord: 26.6ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:54 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/theme/login_logo.png" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/theme/bg_sub-header.png" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started GET "/assets/theme/logo_footer.png" for 127.0.0.1 at 2014-11-22 13:49:55 -0600
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-22 13:50:04 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UqGqsso6lQA594AajuinMRWwmaK8V7UAZbVJYfdxQRo=", "user"=>{"email"=>"cgupta731@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "button"=>""}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'cgupta731@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered layouts/_navbar.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 1200ms (Views: 818.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:06 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/assets/theme/logo_footer.png" for 127.0.0.1 at 2014-11-22 13:50:07 -0600
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-22 13:50:11 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered layouts/_navbar.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 815ms (Views: 811.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started GET "/assets/theme/logo_footer.png" for 127.0.0.1 at 2014-11-22 13:50:13 -0600
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-11-22 13:50:19 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UqGqsso6lQA594AajuinMRWwmaK8V7UAZbVJYfdxQRo=", "user"=>{"email"=>"cgupta731@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'cgupta731@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2014-11-22 19:50:19.333963"], ["sign_in_count", 2], ["updated_at", "2014-11-22 19:50:19.335838"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mProfile Load (0.3ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+Redirected to http://localhost:3000/apply
+Completed 302 Found in 226ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-11-22 13:50:19 -0600
+Processing by ProfilesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered profiles/new.html.erb within layouts/application (31.0ms)
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (6.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 995ms (Views: 969.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/assets/theme/aero.png" for 127.0.0.1 at 2014-11-22 13:50:21 -0600
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 13:50:24 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.8ms)
+  Rendered student/layouts/_sidebar.html.erb (17.2ms)
+Completed 200 OK in 1533ms (Views: 1531.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/student/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/student/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/student/sidebar.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/student/student.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/student/student.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/theme/avatar2.png" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:26 -0600
+
+
+Started GET "/teacher" for 127.0.0.1 at 2014-11-22 13:50:33 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 13:50:33 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (4.9ms)
+  Rendered student/layouts/_sidebar.html.erb (0.9ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:34 -0600
+
+
+Started GET "/teacher" for 127.0.0.1 at 2014-11-22 13:50:38 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/teacher/" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (6.5ms)
+  Rendered student/layouts/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:40 -0600
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.0ms)
+  Rendered student/layouts/_sidebar.html.erb (0.9ms)
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:47 -0600
+
+
+Started GET "/lessons" for 127.0.0.1 at 2014-11-22 13:50:49 -0600
+Processing by DashboardController#lessons as HTML
+  Rendered dashboard/lessons.html.erb within layouts/application (27.1ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionController::UrlGenerationError - No route matches {:action=>"show", :controller=>"lessons"} missing required keys: [:id]:
+  actionpack (4.1.6) lib/action_dispatch/journey/formatter.rb:39:in `generate'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:599:in `generate'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:629:in `generate'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:665:in `url_for'
+  actionpack (4.1.6) lib/action_dispatch/routing/url_for.rb:155:in `url_for'
+  actionview (4.1.6) lib/action_view/routing_url_for.rb:83:in `url_for'
+  turbolinks (2.4.0) lib/turbolinks/xhr_url_for.rb:12:in `url_for_with_xhr_referer'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:230:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:181:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:270:in `block (2 levels) in define_url_helper'
+  app/views/dashboard/lessons.html.erb:86:in `_app_views_dashboard_lessons_html_erb___1897821847576848826_70195196845220'
+  actionview (4.1.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.6) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.6) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.6) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.6) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/e2d518834af0c172/variables" for 127.0.0.1 at 2014-11-22 13:50:50 -0600
+
+
+Started GET "/teacher" for 127.0.0.1 at 2014-11-22 13:50:55 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 13:50:55 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.0ms)
+  Rendered student/layouts/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 122ms (Views: 120.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:50:56 -0600
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-11-22 13:51:08 -0600
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 837ms (Views: 835.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:09 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:51:10 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 13:51:14 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC[0m  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (1.4ms)
+  Rendered courses/show.html.erb within layouts/application (25.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.4ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 853ms (Views: 787.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 13:51:16 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 14:20:18 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_testimonials.html.erb (0.7ms)
+  Rendered pages/index.html.erb within layouts/application (28.0ms)
+  [1m[36mUser Load (10.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.2ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 928ms (Views: 916.4ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:20 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 14:20:21 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 14:20:22 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-22 14:22:11 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (13.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+Redirected to http://localhost:3000/apply
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-11-22 14:22:11 -0600
+Processing by ProfilesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered profiles/new.html.erb within layouts/application (3.2ms)
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 836ms (Views: 831.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:12 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:13 -0600
+
+
+Started GET "/assets/theme/bg_sub-header.png" for 127.0.0.1 at 2014-11-22 14:22:14 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 14:22:14 -0600
+
+
+Started GET "/assets/theme/aero.png" for 127.0.0.1 at 2014-11-22 14:22:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 14:22:29 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_testimonials.html.erb (1.1ms)
+  Rendered pages/index.html.erb within layouts/application (29.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 980ms (Views: 978.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:30 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 14:22:31 -0600
+
+
+Started GET "/courses/" for 127.0.0.1 at 2014-11-22 15:45:13 -0600
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (22.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1923ms (Views: 1866.1ms | ActiveRecord: 23.3ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 15:45:17 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 15:45:19 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.6ms)
+  Rendered courses/show.html.erb within layouts/application (10.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.2ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 849ms (Views: 845.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:20 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 15:45:21 -0600
+
+
+Started GET "/teacher" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.3ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (9.4ms)
+  Rendered student/layouts/_sidebar.html.erb (1.0ms)
+Completed 200 OK in 153ms (Views: 151.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/student/sidebar.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/student/student.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/student/student.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/student/aero.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/student/style.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/theme/avatar2.png" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/theme/bg_sub-header.png" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 15:49:46 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 15:49:55 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC[0m  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.6ms)
+  Rendered courses/show.html.erb within layouts/application (3.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 838ms (Views: 834.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:56 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:57 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 15:49:58 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 15:49:58 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 15:49:58 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 15:49:58 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 15:49:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 16:45:48 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (19.5ms)
+  Rendered layouts/_testimonials.html.erb (4.6ms)
+  Rendered pages/index.html.erb within layouts/application (75.9ms)
+  [1m[36mUser Load (17.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.2ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (5.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1674ms (Views: 1613.4ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:50 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 16:45:51 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 16:45:52 -0600
+
+
+Started GET "/teacher" for 127.0.0.1 at 2014-11-22 16:46:01 -0600
+Processing by Teacher::CoursesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/student/dashboard
+Filter chain halted as :check_admin rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/student/dashboard" for 127.0.0.1 at 2014-11-22 16:46:01 -0600
+Processing by Student::DashboardController#index as HTML
+  Rendered student/dashboard/index.html.erb within student/layouts/application.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (5.5ms)
+  Rendered student/layouts/_sidebar.html.erb (1.2ms)
+Completed 200 OK in 122ms (Views: 120.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/student/style.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:01 -0600
+
+
+Started GET "/assets/student/aero.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:01 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/student/sidebar.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/student/student.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/student/student.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/theme/avatar2.png" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/theme/bg_sub-header.png" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 16:46:02 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 16:46:10 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.1ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC[0m  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.7ms)
+  Rendered courses/show.html.erb within layouts/application (19.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 838ms (Views: 834.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:11 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:11 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 16:46:12 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 16:50:04 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_testimonials.html.erb (0.6ms)
+  Rendered pages/index.html.erb within layouts/application (7.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.1ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 840ms (Views: 838.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:05 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 16:50:06 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 16:58:09 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC[0m  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.7ms)
+  Rendered courses/show.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (5.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1241ms (Views: 1236.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:11 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 16:58:12 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 17:03:14 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_testimonials.html.erb (0.9ms)
+  Rendered pages/index.html.erb within layouts/application (7.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.2ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 823ms (Views: 819.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:15 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:15 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 17:03:16 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 17:03:17 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 17:03:42 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC[0m  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (1.0ms)
+  Rendered courses/show.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1378ms (Views: 1373.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 17:03:43 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.7ms)
+  Rendered courses/show.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.2ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1208ms (Views: 1204.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:44 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 17:03:45 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 17:03:46 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-22 17:39:12 -0600
+Processing by PagesController#index as HTML
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_testimonials.html.erb (0.6ms)
+  Rendered pages/index.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (15.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1
+  Rendered student/layouts/_navbar.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 877ms (Views: 860.2ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:13 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_5.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/logo.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/BDCRailsLogo.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_1.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/BigDCodeSponsors.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/testimonial_2.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_7.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/GetHired.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/testimonial_1.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slides/slide_6.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/ReferFriends.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slider/timer.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/MeetPeople.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/top_divider_black.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/ribbon.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/bg_sub-header_2.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/theme/users_bg.jpg" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slider/loader.gif" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slider/large_left.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/assets/slider/large_right.png" for 127.0.0.1 at 2014-11-22 17:39:14 -0600
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-11-22 17:40:37 -0600
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT  "courses".* FROM "courses"  WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT "sections".* FROM "sections"  WHERE "sections"."course_id" = ?  ORDER BY "sections"."position" ASC  [["course_id", 1]]
+  Rendered layouts/_start_learning.html.erb (0.6ms)
+  Rendered courses/show.html.erb within layouts/application (10.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProfile Load (0.3ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT  "courses".* FROM "courses"   ORDER BY "courses"."id" ASC LIMIT 1[0m
+  Rendered student/layouts/_navbar.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1344ms (Views: 1337.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/shared/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/slider-settings.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/shared/fontello.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/aero.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery.switch.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/single_course.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/agenda.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:39 -0600
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.themepunch.plugins.min.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.themepunch.revolution.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/shared/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/retina.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/validate.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.wizard.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.icheck.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/mapmarker.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.placeholder.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/jquery.validator.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/mapmarker.jquery.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/functions.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/uisearch.js?body=1" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/theme/arrow_hand_1.png" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/theme/logo.png" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
+
+
+Started GET "/assets/theme/pattern_2.png" for 127.0.0.1 at 2014-11-22 17:40:40 -0600
