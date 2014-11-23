@@ -1,45 +1,46 @@
 <section id="sub-header_pattern_2">
-    <div class="container">
+  <div class="container">
     
-      <div class="row">
-          <div class="col-md-12 text-center">
-              <h1><%= @course.name %></h1>
-            </div>
-        </div><!-- End row -->
-        
-        <div class="row" id="sub-header-features">
-          <div class="col-md-12">
-              <h2>Welcome to AnonyQ</h2>
-                <p><%= @course.summary %>
-                <br>
-                Click here to join the <%= @course.name %> page and ask questions:
-                <div class="button_big" %><a href="http://anonyq.socialengine.com/categories/19575/chemistry-165">ASK QUESTIONS NOW</a>
-</div>
-                </p>
-                <p><em>Instructor: Professor X</em></p>
-            </div>
-          
-        </div><!-- End row -->
-    </div><!-- End container -->
-    <div class="divider_top"></div>
-  </section>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1><%= @course.name %></h1>
+      </div>
+    </div><!-- End row -->
+    
+    <div class="row" id="sub-header-features">
+      <div class="col-md-12">
+        <h2>Welcome to AnonyQ</h2>
+        <p><%= @course.summary %>
+          <br>
+          Click here to join the <%= @course.name %> page and ask questions:
+          <div class="button_big" %><a href="http://anonyq.socialengine.com/categories/19575/chemistry-165">ASK QUESTIONS NOW</a>
+          </div>
+        </p>
+        <p><em>Instructor: Professor X</em></p>
+      </div>
+      
+    </div><!-- End row -->
+  </div><!-- End container -->
+  <div class="divider_top"></div>
+</section>
+
+<section id="strips-course" class="style_2">
   
-  <section id="strips-course" class="style_2">
-    
-    <div class="container">
+  <div class="container">
     
     <ol class="breadcrumb">
-      <li><a href="index.html">Home</a></li>
-      <li class="active">Course Overview</li>
+      <li><a href="http://anonyq.herokuapp.com">Home</a></li>
+      <li class="active">Course Questions</li>
     </ol>
     
-    <% @sections.each_with_index do |s, i| %>
-      <% i += 1 %>
-    <% end %>
-            
+    <ol>
+      <li>Lecture 1</li>
+      <li>Lecture 2</li>
+      <li>Lecture 3</li>
+    </ol>        
     
-    </div>
-    
-  </section>
+  </div>
+  
+</section>
 
-  <%= render partial: "layouts/start_learning" %>
+<%= render partial: "layouts/start_learning" %>
