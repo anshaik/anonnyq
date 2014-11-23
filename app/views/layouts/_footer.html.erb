@@ -1,17 +1,5 @@
 <% unless user_signed_in? %>
 <footer>
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<h3>Subscribe to our Newsletter</h3>
-			<div id="message-newsletter"></div>
-			<%= form_for @subscribe, html: { class:"form-inline", id:"newsletter" } do |f| %>
-				<%= f.email_field :email, id:"email_newsletter", placeholder:"Your Email", class:"form-control" %>
-				<%= f.submit "Subscribe", class:"button_outline", id:"submit-newsletter" %>
-			<% end %>
-		</div>
-	</div>
-</div>
 
 <hr>
 
