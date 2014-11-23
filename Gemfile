@@ -13,8 +13,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'devise'
 gem 'jquery-turbolinks'
 gem 'jquery-ui-rails'
-gem 'sqlite3'
-gem 'pg'
+#gem 'sqlite3'
+
 
 group :production do
 	gem 'pg'
