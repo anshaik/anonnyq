@@ -50631,3 +50631,4 @@ Started GET "/assets/theme/top_divider.png" for 127.0.0.1 at 2014-11-22 18:11:08
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+  [1m[36mCourse Load (68.1ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
