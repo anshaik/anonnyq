@@ -14,9 +14,10 @@ gem 'devise'
 gem 'jquery-turbolinks'
 gem 'jquery-ui-rails'
 gem 'sqlite3'
+gem 'pg'
 
 group :production do
-	gem 'sqlite3'
+	gem 'pg'
 	gem 'rails_12factor'
 end
 
